@@ -10,7 +10,7 @@ import sliderMenlha from "@/assets/whoooo.png";//
 import clove from "@/assets/clove.jpeg";
 import imag3 from "@/assets/imag3.jpeg";
 import im2 from "@/assets/im2.jpeg";
-import imag4 from "@/assets/calcite.jpeg";
+import calcite from "@/assets/calcite.jpeg";
 import saffron from "@/assets/saffron.jpeg";
 import nutmeg from "@/assets/nutmeg.png";
 import green from "@/assets/green.jpeg";
@@ -109,7 +109,7 @@ const WhoWeAre = () => {
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
-            { num: "1", name: "Bamboo Silica", img: , desc: "Supports the Lungs and helps regulate Tripa (Bile), promoting respiratory health, reducing excess heat, and strengthening internal vitality" },
+            { num: "1", name: "Bamboo Silica", img: calcite, desc: "Supports the Lungs and helps regulate Tripa (Bile), promoting respiratory health, reducing excess heat, and strengthening internal vitality" },
   { num: "2", name: "Saffron / Safflower", img: saffron, desc: "Connected to the Liver, these herbs balance Tripa (Bile), supporting blood purification, liver function, and emotional stability" },
   { num: "3", name: "Clove", img: clove, desc: "Linked to the Life-Channel, Clove helps balance Lung (Wind), improving circulation, warmth, nerve strength, and mental clarity" },
   { num: "4", name: "Green Cardamom", img: green, desc: "Supports the Kidneys and helps regulate Beken (Phlegm), improving digestion, kidney function, and reducing excess coldness and heaviness" },
