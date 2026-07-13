@@ -10,7 +10,7 @@ import sliderMenlha from "@/assets/whoooo.png";//
 import clove from "@/assets/clove.jpeg";
 import imag3 from "@/assets/imag3.jpeg";
 import im2 from "@/assets/im2.jpeg";
-import imag4 from "@/assets/imag4.jpg";
+import imag4 from "@/assets/imag4.jpeg";
 import saffron from "@/assets/saffron.jpeg";
 import nutmeg from "@/assets/nutmeg.png";
 import green from "@/assets/green.jpeg";
