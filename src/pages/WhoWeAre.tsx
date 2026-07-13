@@ -109,12 +109,12 @@ const WhoWeAre = () => {
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
-            { num: "1", name: "Bamboo Silica", img: imag3, desc: "Supports the Lungs and helps regulate Tripa (Bile), promoting respiratory health, reducing excess heat, and strengthening internal vitality" },
+            { num: "1", name: "Bamboo Silica", img: imag4, desc: "Supports the Lungs and helps regulate Tripa (Bile), promoting respiratory health, reducing excess heat, and strengthening internal vitality" },
   { num: "2", name: "Saffron / Safflower", img: saffron, desc: "Connected to the Liver, these herbs balance Tripa (Bile), supporting blood purification, liver function, and emotional stability" },
   { num: "3", name: "Clove", img: clove, desc: "Linked to the Life-Channel, Clove helps balance Lung (Wind), improving circulation, warmth, nerve strength, and mental clarity" },
   { num: "4", name: "Green Cardamom", img: green, desc: "Supports the Kidneys and helps regulate Beken (Phlegm), improving digestion, kidney function, and reducing excess coldness and heaviness" },
   { num: "5", name: "Nutmeg", img: nutmeg, desc: "Associated with the Heart, Nutmeg balances Lung (Wind), strengthening heart energy, improving sleep, calming the mind, and supporting emotional well-being" },
-  { num: "6", name: "Black Cardamom", img: im2, desc: "Connected to the Spleen, it helps regulate Beken (Phlegm), supporting digestive fire, metabolism, and internal strength" },
+  { num: "6", name: "Black Cardamom", img: imag3, desc: "Connected to the Spleen, it helps regulate Beken (Phlegm), supporting digestive fire, metabolism, and internal strength" },
           ].map((item) => (
             <div key={item.num} className="border border-border rounded-lg p-6">
               {/* <div className="w-10 h-10 rounded-full bg-spa-green flex items-center justify-center mb-4">
