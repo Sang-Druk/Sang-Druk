@@ -61,7 +61,7 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 right-0 z-50 shadow-elegant">
       {/* Top bar — hides on scroll */}
       <div
-        className={`bg-spa-green-deep overflow-hidden transition-all duration-500 ${scrolled ? "max-h-0 opacity-0" : "max-h-100 opacity-100"
+        className={`bg-spa-green-deep overflow-hidden transition-all duration-500 ${scrolled ? "max-h-0 opacity-0" : "max-h-44 opacity-100"
           }`}
       >
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-32 flex items-center justify-between">
