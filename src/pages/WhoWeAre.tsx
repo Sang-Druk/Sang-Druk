@@ -136,8 +136,8 @@ const WhoWeAre = () => {
   />
 </div>
 
-              <h4 className="font-serif text-lg mb-2">{item.name}</h4>
-              <p className="text-muted-foreground text-sm font-sans leading-relaxed">{item.desc}</p>
+              <h4 className="font-serif text-lg font-bold mb-2">{item.name}</h4>
+              <p className="text-muted-foreground text-base font-sans leading-relaxed">{item.desc}</p>
             </div>
           ))}
         </div>
@@ -151,11 +151,11 @@ const WhoWeAre = () => {
     />
 
     <div>
-      <h4 className="font-serif text-3xl mb-3">
+      <h4 className="font-serif text-3xl font-bold text-center mb-4">
         Chebula (Haritaki) – The King of Tibetan Medicine
       </h4>
 
-      <p className="text-muted-foreground text-sm font-sans leading-relaxed">
+      <p className="text-muted-foreground text-lg font-sans leading-relaxed">
         Chebula holds a special place in Tibetan Medicine as the King of Medicine.
         It symbolizes complete balance and harmony, containing the essence of the
         five natural elements and supporting all three energies—Lung, Tripa, and
