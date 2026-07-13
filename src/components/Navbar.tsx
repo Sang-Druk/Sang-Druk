@@ -64,30 +64,30 @@ const Navbar = () => {
         className={`bg-spa-green-deep overflow-hidden transition-all duration-500 ${scrolled ? "max-h-0 opacity-0" : "max-h-44 opacity-100"
           }`}
       >
-        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-32 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-32 py-4 flex items-center justify-between">
           {/* Left — Logo */}
           <Link to="/" className="shrink-0 py-2" onClick={() => setMobileOpen(false)} aria-label="Sang-Druk Home">
             <img
               src={logo}
               alt="Sang-Druk Logo"
-              className="w-14 h-14 sm:w-18 sm:h-18 md:w-20 md:h-20 lg:w-24 lg:h-24 object-contain drop-shadow-xl"
+              className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 object-contain drop-shadow-xl"
             />
           </Link>
 
           {/* Center — Title */}
           <div className="flex-1 flex flex-col items-center text-center px-2 min-w-0">
             {/* Tibetan Text */}
-            <span className="text-yellow-300 font-serif text-base sm:text-lg md:text-2xl lg:text-3xl leading-tight" lang="bo">
+            <span className="text-yellow-300 font-serif text-lg sm:text-3xlg md:text-4xl lg:text-5xl leading-tight" lang="bo">
               ༄༅། །བཟང་དྲུག་བོད་ལུགས་གསོ་རིག་སྨན་ཁང་།
             </span>
 
             {/* Main Title */}
-            <span className="text-white font-serif font-bold text-xs sm:text-sm md:text-lg lg:text-2xl tracking-wide uppercase mt-1">
+            <span className="text-white font-serif font-bold text-lg sm:text-2xl md:text-3xl lg:text-4xl tracking-wide uppercase mt-1">
               SANG-DRUK TIBETAN HERBAL CLINIC
             </span>
 
             {/* Tagline */}
-            <span className="hidden md:block text-white/80 italic font-sans text-xs lg:text-[10px] mt-1 leading-snug max-w-3xl">
+            <span className="hidden md:block text-white/80 italic font-sans text-sm lg:text-base mt-1 leading-snug max-w-3xl">
               At the heart of Sowa Rigpa, healing begins where compassion meets wisdom —restoring balance to body, mind, and the science of life.
             </span>
             {/* <span className="hidden md:block text-white/80 italic font-sans text-xs lg:text-sm leading-snug max-w-3xl">
